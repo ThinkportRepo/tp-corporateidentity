@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+	--primary-color: #00bcd4;
+	--secondary-color: #ff5722;
+	--r-link-color: var(--secondary-color);
+	--r-link-color-dark: #c11dd0;
+	--r-link-color-hover: #edf3ac;
+	--r-selection-background-color: #e7ad52;
+	--r-selection-color: blue;
+}
+
+html {
+	font-size: 80%;
+}
+
+body {
+	background: #01122a url(/Assets/Brands/Thinkport/thinkport-bg-logo.png) no-repeat left !important;
+	background-size: cover !important;
+}
+
+* {
+	font-family: 'Montserrat';
+}
+
+.reveal .controls .controls-arrow:after,
+.reveal .controls .controls-arrow:before {
+	background-color: var(--primary-color);
+}
