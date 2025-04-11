@@ -14,7 +14,8 @@ html {
 	font-size: 80%;
 }
 
-body {
+body,
+div.backgrounds > div.slide-background.drop.present > div {
 	background: #01122a url(../Backgrounds/thinkport-slide-logo.png) no-repeat left 50% / cover !important;
 }
 * {
